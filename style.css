@@ -6,8 +6,7 @@
 
 body {
     background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
-    height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     font-family: 'Arial', sans-serif;
     color: white;
 }
@@ -204,4 +203,50 @@ body {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+/* style.css */
+
+.custom-message-container {
+    background-color: #f7f9fc;
+    /* Light background color */
+    padding: 50px 20px;
+    border-top: 2px solid #0f0c29;
+    /* Dark border at the top */
+    text-align: center;
+}
+
+.custom-message-container .message {
+    background-color: #ffffff;
+    /* White background for the message box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.custom-message-container h3 {
+    color: #0f0c29;
+    /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.custom-message-container .form-label {
+    font-weight: bold;
+}
+
+.custom-message-container .form-control {
+    margin-bottom: 10px;
+}
+
+.custom-message-container .btn {
+    background-color: #0f0c29;
+    /* Dark button color */
+    color: white;
+    border: none;
+}
+
+.custom-message-container .btn:hover {
+    background-color: #333;
+    /* Slightly lighter color on hover */
 }
